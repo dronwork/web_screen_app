@@ -16,9 +16,3 @@ test:
   <<: *default
   database: web_screen_app_test
 
-
-production:
-  <<: *default
-  database: web_screen_app_production
-  username: web_screen_app
-  password: <%= ENV['WEB_SCREEN_APP_DATABASE_PASSWORD'] %>
