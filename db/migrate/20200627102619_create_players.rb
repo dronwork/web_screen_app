@@ -9,6 +9,7 @@ class CreatePlayers < ActiveRecord::Migration[6.0]
       t.string   :position
       t.string   :foot
       t.string   :current_club
+
       t.timestamps
     end
   end
